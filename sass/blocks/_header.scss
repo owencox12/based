@@ -1,0 +1,33 @@
+.header {
+    min-height: 105px;
+    background: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 39px;
+    }
+    &__menu {
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 20px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 25px;
+                    text-transform: uppercase;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

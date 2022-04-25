@@ -1,0 +1,31 @@
+.projects {
+    min-height: 2700px;
+    background: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 39px;
+    }
+    &__title {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        color: #000000;
+        margin-top: 120px;
+    }
+    &__item {
+        margin-bottom: 42px;
+        &_descr {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            color: #000000;
+            margin-top: 18px;
+        }
+    }
+}

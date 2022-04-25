@@ -1,0 +1,12 @@
+.main {
+    min-height: 830px;
+    &__image {
+        position: relative;
+        &_live {
+            position: absolute;
+            top: 50%;
+            cursor: pointer;
+            left: 50%;
+        }
+    }
+}

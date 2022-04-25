@@ -1,0 +1,90 @@
+@media (max-width: 1330px) {
+    .container {
+        max-width: 1100px;
+    }
+    .main__image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .projects__wrapper {
+        justify-content: center;
+    }
+} 
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .main {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+    .main {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    .main {
+        min-height: 200px;
+    }
+    .projects__item_image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__links {
+        margin-top: 40px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &_menu {
+            &:last-child {
+                margin-top: 30px;
+            }
+            &_list {
+                &_type {
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 571px) {
+    .container {
+        max-width: 300px;
+    }
+    .main__image_live {
+        top: 35%;
+        left: 47%;
+        img {
+            width: 50px;
+        }
+    }
+    .main {
+        min-height: 100px;
+    }
+    .projects__title {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,51 @@
+.footer {
+    min-height: 200px;
+    padding-bottom: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 81px;
+    }
+    &__item {
+        width: 50%;
+        &_info {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 25px;
+            color: #000000;
+            span {
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                color: #000000;
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__links {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        &_menu {
+            &_list {
+                &_type {
+                    a {
+                        font-family: 'Arial';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 25px;
+                        color: #000000;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
